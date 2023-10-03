@@ -60,34 +60,6 @@ namespace desk.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap _48 {
-            get {
-                object obj = ResourceManager.GetObject("48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Appearance {
-            get {
-                object obj = ResourceManager.GetObject("Appearance", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Appearance_2 {
-            get {
-                object obj = ResourceManager.GetObject("Appearance 2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Audio_Devices_2 {
-            get {
-                object obj = ResourceManager.GetObject("Audio Devices 2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap Background {
             get {
                 object obj = ResourceManager.GetObject("Background", resourceCulture);
@@ -98,13 +70,6 @@ namespace desk.Properties {
         internal static System.Drawing.Bitmap deskbg {
             get {
                 object obj = ResourceManager.GetObject("deskbg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Display_Adapter_2 {
-            get {
-                object obj = ResourceManager.GetObject("Display Adapter 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,13 +88,6 @@ namespace desk.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap Mouse_2 {
-            get {
-                object obj = ResourceManager.GetObject("Mouse 2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap mousept {
             get {
                 object obj = ResourceManager.GetObject("mousept", resourceCulture);
@@ -140,20 +98,6 @@ namespace desk.Properties {
         internal static System.Drawing.Bitmap normal {
             get {
                 object obj = ResourceManager.GetObject("normal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Normal_Button {
-            get {
-                object obj = ResourceManager.GetObject("Normal Button", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Normal_Button1 {
-            get {
-                object obj = ResourceManager.GetObject("Normal Button1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -175,13 +119,6 @@ namespace desk.Properties {
         internal static System.Drawing.Bitmap sounds {
             get {
                 object obj = ResourceManager.GetObject("sounds", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap stars_48 {
-            get {
-                object obj = ResourceManager.GetObject("stars 48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

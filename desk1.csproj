@@ -38,7 +38,8 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>0</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -46,7 +47,8 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>0</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,7 +67,9 @@
       <Link>desk.Designer.cs</Link>
       <DependentUpon>desk.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\..\New Folder\desk.resx">
       <Link>desk.resx</Link>
@@ -133,20 +137,11 @@
     <None Include="Resources\deskbg.png" />
     <None Include="Resources\displayst.png" />
     <Content Include="Resources\hover.png" />
-    <None Include="Resources\hover1.png" />
     <None Include="Resources\mousept.png" />
     <Content Include="Resources\pressed.png" />
     <None Include="Resources\sounds.png" />
     <None Include="Resources\screensaver.png" />
     <None Include="Resources\theme.png" />
-    <None Include="Resources\pressed1.png" />
-    <None Include="Resources\Audio Devices 2.png" />
-    <None Include="Resources\Display Adapter 2.png" />
-    <None Include="Resources\Mouse 2.png" />
-    <None Include="Resources\stars 48.png" />
-    <None Include="Resources\Appearance 2.png" />
-    <None Include="Resources\Appearance.png" />
-    <None Include="Resources\48.png" />
     <None Include="Resources\normal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
